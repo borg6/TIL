@@ -1,0 +1,40 @@
+
+--- Cobra learns
+
+
+https://github.com/spf13/cobra
+
+
+https://niyanchun.com/cobra-brief-introduction.html
+
+https://schadokar.dev/posts/how-to-create-a-cli-in-golang-with-cobra/
+
+https://www.linode.com/docs/development/go/using-cobra/
+
+https://ordina-jworks.github.io/development/2018/10/20/make-your-own-cli-with-golang-and-cobra.html
+
+
+
+to figure out:
+√ 1) why
+√ 2) sub-cmd : contains same sub-act
+√ 3) help doc
+
+
+
+--- Cobra notes
+
+
+Cobra is built on a structure of commands, arguments & flags.
+Commands represent actions, Args are things and Flags are modifiers for those actions.
+* APPNAME VERB NOUN --ADJECTIVE
+* APPNAME COMMAND ARG --FLAG
+
+
+install:
+---
+export GO111MODULE=off
+go get github.com/spf13/cobra/cobra
+---
+
+
